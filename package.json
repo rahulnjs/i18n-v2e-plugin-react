@@ -1,6 +1,6 @@
 {
   "name": "i18n-v2e-plugin-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Post process react plugin for i18n to convert translated value to HTML element",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
