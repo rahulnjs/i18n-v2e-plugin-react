@@ -18,7 +18,7 @@ export const getProcessor = function (
             return notInIgnoeList(key) ? createElement(
                 tag || "span",
                 {
-                    className: `${className} lokalize-lbl ${key}`
+                    className: `lokalize-lbl ${key}${className ? ' ' + className : ''}`
                 },
                 value
             ) : value; 
