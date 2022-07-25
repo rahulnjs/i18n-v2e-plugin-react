@@ -1,0 +1,39 @@
+{
+  "name": "i18n-v2e-plugin-react",
+  "version": "1.0.0",
+  "description": "Post process react plugin for i18n to convert translated value to HTML element",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "test": "tsdx test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulnjs/i18n-v2e-plugin-react.git"
+  },
+  "keywords": [
+    "i18n",
+    "plugin",
+    "18n",
+    "value",
+    "to",
+    "HTML"
+  ],
+  "author": "rahulnjs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulnjs/i18n-v2e-plugin-react/issues"
+  },
+  "homepage": "https://github.com/rahulnjs/i18n-v2e-plugin-react#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.4.0",
+    "typescript": "^3.9.7",
+    "uuidv4": "^6.2.13"
+  }
+}
