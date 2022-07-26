@@ -7,7 +7,7 @@ export const getProcessor = function (
     tag: string = ""
 ) {
 
-    function notInIgnoeList(key: string) {
+    function isInIgnoeList(key: string) {
         return ignoreList.indexOf(key.toString()) >= 0;
     }
 
@@ -15,7 +15,7 @@ export const getProcessor = function (
         type: "postProcessor",
         name: `rs-bdd-processor-${uuid()}`,
         process: function (value: string, key: any) {
-            return notInIgnoeList(key) ? createElement(
+            return !isInIgnoeList(key) ? createElement(
                 tag || "span",
                 {
                     className: `lokalize-lbl ${key}${className ? ' ' + className : ''}`
