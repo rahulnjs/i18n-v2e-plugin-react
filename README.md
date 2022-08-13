@@ -35,7 +35,7 @@ will generate below HTML,
 
 ```html
 <div>
-  <span class="lokalise-lbl your_sample_key">
+  <span class="lokalize-lbl your_sample_key">
     your sample value
   </span>
 </div>
@@ -81,7 +81,7 @@ i18n.use(MyPostProcessor).init({
 
 ```html
 <div>
-  <var class="lokalise-lbl your_sample_key class-143">
+  <var class="lokalize-lbl your_sample_key class-143">
     your sample value
   </var>
   Ignore 1 value
