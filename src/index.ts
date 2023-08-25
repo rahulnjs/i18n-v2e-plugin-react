@@ -1,5 +1,5 @@
 import { createElement } from 'react';
-import { uuid } from 'uuidv4';
+import { v4 as uuid } from 'uuid';
 
 export const getProcessor = function (
     ignoreList: string[] = [],
